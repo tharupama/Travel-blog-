@@ -1,0 +1,130 @@
+body{
+    margin: -22px 0;
+    font-family:Arial, sans-serif;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    
+}
+.heade{
+    background-image: url("headback.jpg");
+    opacity: 0.9;
+    font-size: 60px;
+    margin-bottom: 0;
+    background-size: cover;
+    background-position: center;
+    
+    color: rgb(255, 255, 255);
+    padding: 10%;
+    
+    
+}
+
+
+
+
+nav ul{list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 0;
+    position: sticky;
+    width: 100%;
+    z-index: 1000;
+    
+    
+
+}
+
+nav ul li{
+    margin: 0 15px;
+   
+
+}
+nav ul li a{
+    padding: 20px 30px;
+    text-decoration: none;
+    display: block;
+    border-radius: 50px;
+    color: white;
+}
+.upbar:hover{
+    background-color: aqua;
+    color: black;
+}
+
+h1{
+    background-color: rgb(158, 158, 158);
+    margin-bottom: -22px;
+    padding: 5%;
+    
+    
+}
+
+th{
+    background-color: #FFCC02;
+    padding: 20px;
+    
+}
+td{
+    padding: 20px;
+}
+table{
+    text-align: center;
+    width: 80%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    
+}
+.gray{
+    background-color:#F9F9F9;
+}
+footer{
+    margin-bottom: 0;
+    background-color: yellow;
+    padding: 50px;
+    background-image: linear-gradient(to right, #FECA00 , #FF6702);
+    color:white;
+    
+
+}
+.fa-facebook {
+   
+    color: white;
+    margin: 10px;
+    
+  }
+    .fa-twitter {
+        
+        color: white;
+        margin: 10px;
+    }
+    .fa-instagram {
+        
+        color: white;
+        margin: 10px;
+    }
+
+tr:hover{
+    background-color: #ff0000;
+}
+.fa-facebook:hover{
+    transform: scale(2); 
+}
+.fa-twitter:hover{
+    transform: scale(2); 
+}
+.fa-instagram:hover{
+    transform: scale(2); 
+}
+  
+
+
+
+
+
